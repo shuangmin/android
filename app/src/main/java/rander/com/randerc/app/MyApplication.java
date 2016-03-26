@@ -2,6 +2,7 @@ package rander.com.randerc.app;
 
 import android.app.Activity;
 import android.app.Application;
+import android.content.Context;
 import android.os.Bundle;
 
 /**
@@ -14,4 +15,5 @@ public class MyApplication extends Application{
         super.onCreate();
         registerActivityLifecycleCallbacks(new MyActivityLifecycleCallbacks());
     }
+
 }
