@@ -18,12 +18,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import rander.com.randerc.activity.BigPicActivity;
 import rander.com.randerc.activity.ScrollActivity;
 import rander.com.randerc.adapter.CommonAdapter;
 import rander.com.randerc.adapter.MyBaseAdapter;
 import rander.com.randerc.adapter.NormalAdapter;
 import rander.com.randerc.adapter.ViewHolder;
 import rander.com.randerc.utils.L;
+import rander.com.randerc.widget.ScrollLinearLayout;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -57,6 +59,7 @@ public class MainActivity extends AppCompatActivity{
     private void init() {
         aClasses = new LinkedHashMap<>();
         aClasses.put("View滚动方法", ScrollActivity.class);
+        aClasses.put("巨图加载，不压缩", BigPicActivity.class);
     }
 
 }
