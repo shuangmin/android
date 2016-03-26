@@ -20,6 +20,7 @@ import java.util.Set;
 
 import rander.com.randerc.activity.BigPicActivity;
 import rander.com.randerc.activity.ScrollActivity;
+import rander.com.randerc.activity.WaveActivity;
 import rander.com.randerc.adapter.CommonAdapter;
 import rander.com.randerc.adapter.MyBaseAdapter;
 import rander.com.randerc.adapter.NormalAdapter;
@@ -59,7 +60,8 @@ public class MainActivity extends AppCompatActivity{
     private void init() {
         aClasses = new LinkedHashMap<>();
         aClasses.put("View滚动方法", ScrollActivity.class);
-        aClasses.put("巨图加载，不压缩", BigPicActivity.class);
+        aClasses.put("巨图按需加载，不压缩", BigPicActivity.class);
+        aClasses.put("波浪效果，有点像支付宝咻咻咻",WaveActivity.class);
     }
 
 }
