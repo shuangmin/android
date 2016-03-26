@@ -13,7 +13,11 @@ import android.view.View;
 import java.io.IOException;
 import java.io.InputStream;
 
+import rander.com.randerc.utils.L;
+
 /**
+ * 实际项目中需求可以参照下面的开源项目
+ * https://github.com/johnnylambada/WorldMap
  * Created by rander on 16-3-26.
  */
 public class LargeImageView extends View{
@@ -72,6 +76,7 @@ public class LargeImageView extends View{
                 if (is != null) is.close();
             } catch (Exception e)
             {
+                e.printStackTrace();
             }
         }
     }
