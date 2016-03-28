@@ -19,6 +19,7 @@ import java.util.Map;
 import java.util.Set;
 
 import rander.com.randerc.activity.BigPicActivity;
+import rander.com.randerc.activity.RoundImageActivity;
 import rander.com.randerc.activity.ScrollActivity;
 import rander.com.randerc.activity.WaveActivity;
 import rander.com.randerc.adapter.CommonAdapter;
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity{
         aClasses.put("View滚动方法", ScrollActivity.class);
         aClasses.put("巨图按需加载，不压缩", BigPicActivity.class);
         aClasses.put("波浪效果，有点像支付宝咻咻咻",WaveActivity.class);
+        aClasses.put("圆角图片",RoundImageActivity.class);
     }
 
 }

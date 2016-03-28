@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <rander.com.randerc.widget.roundimg.XformodeRoundImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+
+    <rander.com.randerc.widget.roundimg.RoundImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+</LinearLayout>
